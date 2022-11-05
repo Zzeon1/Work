@@ -1,0 +1,261 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.logo1{
+    width: 6vw;
+    margin-top: 0.208vw;
+    margin-left: 10.4vw;
+    height: 6vw;
+    margin-top: 1.5vw;
+    object-fit: cover;
+    position: absolute;
+}
+
+
+
+.home{
+    min-height: 56.9vw;
+    width: 100%;
+
+    background-image: linear-gradient(rgba(17, 60, 230, 0.7), rgba(0, 0, 0, 0.7)),url(bg2.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+ }
+.heading{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.heading h1{
+    font-size: 3.47vw;
+}
+.heading p{
+    margin: 0.69vw 0 2.7vw;
+    margin-top: 0px;
+    font-size: 13px;
+    color: white;
+}
+.info-bttn{
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 10vw;
+    color: white;
+    border: 0.0694444vw solid white;
+    padding: 0.83vw 2.36vw;
+    font-size: 0.902vw;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.info-bttn:hover{
+    border: 0.0694444vw solid white;
+    background: white;
+    transition: 1s;
+    color: black;
+}
+
+nav .fa{
+    display: none;
+}
+
+
+.main-links{
+    justify-content: space-between;
+    margin-left: 3.47vw;
+    position: absolute;
+    margin-right: 6.944vw;
+    
+}
+.mn{
+    margin-left: 27.78vw;
+    position: absolute;
+    margin-top: 3.5vw;
+    font-size: 0.834vw; 
+    text-decoration: none;
+    color: white;
+
+}
+.mn2{
+    position: absolute;
+    margin-left: 41.66vw;
+    font-size: 0.834vw;
+    margin-top: 0.9vw;
+    margin-top: 3.5vw;
+    color: white;
+    text-decoration: none;
+}
+.mn3{
+    position: absolute;
+    margin-left: 55.55vw;
+    margin-top: 0.9vw;
+     font-size: 0.834vw;
+     margin-top: 3.5vw;
+    text-decoration: none;
+    color: white;
+}
+.mn4{
+    position: absolute;
+    margin-left: 69.444vw;
+    margin-top: 0.9vw;
+     font-size: 0.834vw;
+     margin-top: 3.5vw;
+    text-decoration: none;
+    color: white;
+}
+    
+
+
+.abt{
+    color: white;
+    margin-top: 3.47vw;
+    text-align: center;
+    width: 62.5vw;
+   text-align: center;
+ }
+ .abt, .a-head, .a-head2, .a-head3, .problem, .solution, .team{
+    text-align: center;
+    color: white;
+    margin-right: 13.88vw;
+    margin-left: 13.88vw;
+ }
+/*
+ .a-head{
+    margin-top: 6.5vh;
+    margin-bottom: 3.6vh;
+ }
+ .a-head2{
+    margin-top: 6.5vh;
+    margin-bottom: 3.6vh;
+ }
+
+ .a-head3{
+    margin-top: 6.5vh;
+    margin-bottom: 3.6vh;
+    
+ }
+ */
+ .solution, .problem, .team {
+    line-height: 2;
+ }
+ .a-head, .a-head2, .a-head3{
+    margin-top: 2.33vw;
+    margin-bottom: 1.38vw;
+}
+.a-head{
+    margin-top: 7vw;
+}
+.schl{
+    color: white;
+    text-align: center;
+    margin-bottom: 2.08vw;
+    margin-top:  7vw;
+}
+
+.cntct{
+    justify-content: space-between;
+    position: absolute;
+    width: 69.4vw;
+}
+.insta{
+    margin-left: 6.94vw;
+    color: white;
+    position: fixed;
+    margin-top: 34.722vw;
+}
+.email{
+    margin-left: 0;
+    display: inline-block;
+    margin-bottom: 0.6944vw;
+    margin-left: 21.5vw;
+    color: white;
+
+}
+.id{
+    color: whitesmoke;
+    margin-left: 21.5vw;
+    margin-top: 0.6994vw;
+}
+.in{
+    color: white;
+    text-decoration: none;
+}
+.img-g{
+    margin-left: 27.77vw;
+    margin-right: 104.66vw;
+    margin-right: 0.6944vw;
+    font-weight: 500;
+    color: white;
+}
+.bt-1{
+    color: white;
+    margin-top: 7vw;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.tp{
+    width: 50vw;
+    margin-left: 23.5vw;
+    height: 35vw;
+    
+}
+.map{
+    width: 48vw;
+    margin-left: 25vw;
+    margin-bottom: 0;
+    height: 20vw;
+}
+
+.blog-text{
+    color: white;
+    margin-top: 1.5vw;
+    font-size: 16px;
+    margin-left: 48vw;
+    line-height:2.5;
+    width: 40vw;
+    position: relative;
+}
+
+.r1{
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    margin-left: 13vw;
+    margin-top: 3vw;
+}
+
+.blog-text1{
+    color: white;
+    margin-top: 2vw;
+    font-size: 16px;
+    margin-left: 11.5vw;
+    line-height: 2.5;
+    width: 40vw;
+    position: relative;    
+    text-align: center;
+}
+
+.r2{
+    width: 35vw;
+    height: 30vw;
+    position: absolute;
+    margin-left: 54vw;
+    margin-top: 3vw;
+}
+
+
+
+
+
+
+
